@@ -22,9 +22,7 @@ its suitability for robust estimation in practical applications.
 
 
 Paper: Optimal Robustification of Linear Quadratic Regulator
-
 (published at the CodIT 2024)
-
 Absract:
 This paper presents a robust control design for
 linear systems with matched external disturbances based on
