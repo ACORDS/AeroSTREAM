@@ -63,4 +63,29 @@ the shortest possible time. A series of simulations demonstrate
 its effectiveness in generating and executing the paths in various
 unknown robot environments.
 
+Paper: Robust Super Twisting Based Sliding Mode Control for a 2-DOF
+Nonlinear Helicopter Model
+Abstract: 
+This paper presents a robust control strategy,
+namely Sliding Mode Control (SMC), to control a two-degreeof-
+freedom (2DOF) helicopter model. This model is an inherently
+unstable, nonlinear, and multivariable system with
+coupling effects between two axes. Due to the mentioned characteristics,
+helicopter control remains a challenging problem,
+especially in the presence of external disturbances, parameter
+perturbation and model uncertainties. In order to overcome
+some of these difficulties, we developed a second order sliding
+mode controller based on the super-twisting algorithm
+(STSMC). It represents a modification of the standard SMC
+with the aim of improving its control capabilities. The effectiveness
+and robustness of the used STSMC were verified through
+simulations and experiments. The results obtained were compared
+with the same achieved by a previously developed PID
+and adaptive controllers. The STSMC significantly outperforms
+the PID controller and additionally improves the efficiency of
+the used adaptive controller in terms of stability of the system,
+tracking error, and overall control performance in the presence
+of system uncertainties and coupling effects between two axes,
+the azimuth and elevation.
+
 
