@@ -34,3 +34,33 @@ transient response like in other commonly used state-of-the-art
 SMC design procedures. The simulation study suggests that the
 proposed control design robustifies optimal LQR with minimal
 deterioration of optimality.
+
+Paper: Mobile Robot Motion Planning Based on a Concept of Attractive and
+Repulsive Forces and Variable Target and Robot Perception Circles
+(published at the CodIT 2024)
+Absract: 
+This paper proposes a mobile robot motion control
+and planning system for trajectory tracking and obstacle avoidance
+in a prior unknown robot environment. The proposed system
+has two-level control and planning architecture: the higher
+is used to generate a path, while the lower provides the control
+actions that drive the robot. The planning level represents a
+reactive planer which determines on-line way-points during the
+robot’s movement towards the target and allowing the robot to
+move autonomously through an environment without colliding
+with obstacles. The main objective of this algorithm is to reduce
+the number of obstacles that are taken into consideration when
+determining the intermediate target point (way-points) in the
+movement towards the target location. This proposed algorithm
+is based on the concept of calculating the intersection of the
+variable target circle and the robot perception circle (VTPC), as
+well as attractive and repulsive forces. The lower level includes
+a fuzzy logic controller that drives the robot along generated
+online trajectory. It compares the current position of the mobile
+robot with the desired position, generating the appropriate
+linear speeds for the robot’s wheels to reach the target point in
+the shortest possible time. A series of simulations demonstrate
+its effectiveness in generating and executing the paths in various
+unknown robot environments.
+
+
